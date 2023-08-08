@@ -42,12 +42,12 @@ static class SavingsAccount
 
     public static int YearsBeforeDesiredBalance(decimal balance, decimal targetBalance)
     {
-        int i = 0;
+        int yearsBeforeDesiredBalance = 0;
         while (balance <= targetBalance)
             {
                 balance += SavingsAccount.Interest(balance);
-                i++;
+                yearsBeforeDesiredBalance++;
             }
-        return i;
+        return yearsBeforeDesiredBalance;
     }
 }
