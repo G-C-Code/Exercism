@@ -29,6 +29,7 @@ static class AssemblyLine
     {
         double workingCarsPerMinute = AssemblyLine.SuccessRate(speed) * 221 * speed / 60;
         int workingCarsPerMinuteTruncated = (int)workingCarsPerMinute;
+        
         return workingCarsPerMinuteTruncated;
     }
 }
