@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PoLi3EUVRgR/ASV/oKYU6ke0kh3cYqNj6fvkcISiSRDsXcH8lMEoNHBLgSWtXB2ljHpxoQgErg+3RxwLl8H+uQ==",
+  "dgSpecHash": "Cu4cGPsCzIynbRQrfhzrL1l9mU8dQwDet/dzGhU60PxF3iXTxKi10CU9dgUTtiazuiRzTRXL5czQMdB5fwRUtw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gsblo\\Exercism\\csharp\\reverse-string\\ReverseString.csproj",
+  "projectFilePath": "c:\\Users\\gsblo\\Exercism\\csharp\\reverse-string\\ReverseString.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gsblo\\.nuget\\packages\\exercism.tests\\0.1.0-beta1\\exercism.tests.0.1.0-beta1.nupkg.sha512",
     "C:\\Users\\gsblo\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",
