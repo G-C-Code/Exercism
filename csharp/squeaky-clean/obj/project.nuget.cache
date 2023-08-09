@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cy8SgSCCCr3FV/UDOAHsMLDg1/1tPhMd6nTbCuNRbV/ShJIuagXC74y+h5154oBtkXTsuKB/KqRHntY70f//iA==",
+  "dgSpecHash": "wlmwC1m4pjgRUpYjmNu+bXNRY8Oo5aw2ZSfOM3ip9tVmVlQKd+pLvMW20pkVHNlReF6lFEMwrNbgh8znonhqfQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\gsblo\\Exercism\\csharp\\squeaky-clean\\SqueakyClean.csproj",
+  "projectFilePath": "C:\\Users\\gsblo\\Exercism\\csharp\\squeaky-clean\\SqueakyClean.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gsblo\\.nuget\\packages\\exercism.tests\\0.1.0-beta1\\exercism.tests.0.1.0-beta1.nupkg.sha512",
     "C:\\Users\\gsblo\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",
