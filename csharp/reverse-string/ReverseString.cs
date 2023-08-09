@@ -6,6 +6,6 @@ public static class ReverseString
     {
         char[] charArray = input.ToCharArray();
         Array.Reverse(charArray);
-        return new string(charArray);
+        return new string (charArray);
     }
 }
