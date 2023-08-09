@@ -1,33 +1,44 @@
 using System;
 using System.Text;
-using System.Linq;
 using System.Text.RegularExpressions;
 
 public static class Identifier
 {
     public static string Clean(string identifier)
     {
+        // Replace ASCII control characters with "CTRL"
         string pattern = @"[\x00-\x1F\x7F]";
-        string modifiedIdentifier0 = Regex.Replace(identifier, pattern, "CTRL");
+        string modifiedIdentifier = Regex.Replace(identifier, pattern, "CTRL");
 
-        pattern = "[^a-zA-Z] -";
-        string modifiedIdentifier = Regex.Replace(modifiedIdentifier0, pattern, String.Empty);
+        // Remove Greek letters, digits, and non-character symbols
+        pattern = "[α-ω0-9\\p{Cs}]";
+        modifiedIdentifier = Regex.Replace(modifiedIdentifier, pattern, String.Empty);
 
+        // Convert the modified identifier into a character array
         char[] charArray = modifiedIdentifier.ToCharArray();
 
+        // Loop through each character in the array
         for (int i = 0; i < charArray.Length; i++)
         {
+            // Replace spaces with underscores
             if (charArray[i] == ' ')
                 charArray[i] = '_';
 
+            // Capitalize the character after a hyphen
             if (charArray[i] == '-' && i + 1 < charArray.Length)
             {
+                // Convert the next character to uppercase
                 charArray[i + 1] = char.ToUpper(charArray[i + 1]);
-                charArray = new string(charArray).Remove(i,1).ToCharArray();
+
+                // Remove the hyphen character
+                charArray = new string(charArray).Remove(i, 1).ToCharArray();
             }
         }
 
-        string modifiedIdentifierFinal = new(charArray);
+        // Convert the character array back to a string
+        string modifiedIdentifierFinal = new string(charArray);
+
+        // Return the final modified identifier
         return modifiedIdentifierFinal;
     }
 }
