@@ -28,8 +28,6 @@ public static class ResistorColorDuo
                 value += "8";
             else if (colors[i] == "white")
                 value += "9";
-            else
-                value += "";
         }
 
         return Int32.Parse(value);
