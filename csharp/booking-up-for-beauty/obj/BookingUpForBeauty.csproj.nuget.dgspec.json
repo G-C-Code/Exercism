@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gsblo\\Exercism\\csharp\\booking-up-for-beauty\\BookingUpForBeauty.csproj": {}
+    "c:\\Users\\gsblo\\Exercism\\csharp\\booking-up-for-beauty\\BookingUpForBeauty.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gsblo\\Exercism\\csharp\\booking-up-for-beauty\\BookingUpForBeauty.csproj": {
+    "c:\\Users\\gsblo\\Exercism\\csharp\\booking-up-for-beauty\\BookingUpForBeauty.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gsblo\\Exercism\\csharp\\booking-up-for-beauty\\BookingUpForBeauty.csproj",
+        "projectUniqueName": "c:\\Users\\gsblo\\Exercism\\csharp\\booking-up-for-beauty\\BookingUpForBeauty.csproj",
         "projectName": "BookingUpForBeauty",
-        "projectPath": "C:\\Users\\gsblo\\Exercism\\csharp\\booking-up-for-beauty\\BookingUpForBeauty.csproj",
+        "projectPath": "c:\\Users\\gsblo\\Exercism\\csharp\\booking-up-for-beauty\\BookingUpForBeauty.csproj",
         "packagesPath": "C:\\Users\\gsblo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gsblo\\Exercism\\csharp\\booking-up-for-beauty\\obj\\",
+        "outputPath": "c:\\Users\\gsblo\\Exercism\\csharp\\booking-up-for-beauty\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
