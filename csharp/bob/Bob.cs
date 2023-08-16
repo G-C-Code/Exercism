@@ -22,6 +22,6 @@ public static class Bob
             return "Sure.";
         // Default response for all other cases
         else
-            return "Whatever.";
+            return "Whatever."; 
     }
 }
