@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gsblo\\Exercism\\csharp\\gigasecond\\Gigasecond.csproj": {}
+    "c:\\Users\\gsblo\\Exercism\\csharp\\gigasecond\\Gigasecond.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gsblo\\Exercism\\csharp\\gigasecond\\Gigasecond.csproj": {
+    "c:\\Users\\gsblo\\Exercism\\csharp\\gigasecond\\Gigasecond.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gsblo\\Exercism\\csharp\\gigasecond\\Gigasecond.csproj",
+        "projectUniqueName": "c:\\Users\\gsblo\\Exercism\\csharp\\gigasecond\\Gigasecond.csproj",
         "projectName": "Gigasecond",
-        "projectPath": "C:\\Users\\gsblo\\Exercism\\csharp\\gigasecond\\Gigasecond.csproj",
+        "projectPath": "c:\\Users\\gsblo\\Exercism\\csharp\\gigasecond\\Gigasecond.csproj",
         "packagesPath": "C:\\Users\\gsblo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gsblo\\Exercism\\csharp\\gigasecond\\obj\\",
+        "outputPath": "c:\\Users\\gsblo\\Exercism\\csharp\\gigasecond\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

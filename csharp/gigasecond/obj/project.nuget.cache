@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y4dpX7e6yPjFUZUSbF754pFfJqcvU9wzPD7htC0J4fnB1dtHpDPnI+8IR7AfGI/J+KFCqNILc5mdy7029j1UCw==",
+  "dgSpecHash": "PIqIZPYu9wLU2UUApiWfXrcksMfDryrzMGgBSEernqX329Sx3XMEd/tdSfSLcC8uRVdjlOZEFaL6voexjXwFGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gsblo\\Exercism\\csharp\\gigasecond\\Gigasecond.csproj",
+  "projectFilePath": "c:\\Users\\gsblo\\Exercism\\csharp\\gigasecond\\Gigasecond.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gsblo\\.nuget\\packages\\exercism.tests\\0.1.0-beta1\\exercism.tests.0.1.0-beta1.nupkg.sha512",
     "C:\\Users\\gsblo\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",
