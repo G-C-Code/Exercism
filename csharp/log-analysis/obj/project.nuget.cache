@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FuuNVkXRHvPk0zllhSesH5chZmShGYN5SMKSErRdmAVa0iateQngl8BOlelABG+dxCr8HBWhAfrTkYlxecrV7Q==",
+  "dgSpecHash": "H52c89pUPfOzg8Ux5mKbb2PdF7VR90aSW+0D8Y2H64hrYVxgu28yu3k42EoTzyZr/URWsjBcx33CJLu8J23kKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gsblo\\Exercism\\csharp\\log-analysis\\LogAnalysis.csproj",
+  "projectFilePath": "c:\\Users\\gsblo\\Exercism\\csharp\\log-analysis\\LogAnalysis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gsblo\\.nuget\\packages\\exercism.tests\\0.1.0-beta1\\exercism.tests.0.1.0-beta1.nupkg.sha512",
     "C:\\Users\\gsblo\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",
