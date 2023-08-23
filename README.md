@@ -1,3 +1,4 @@
-## Exercisms
+## Exercism solutions
+Repository for my solutions to coding exercises from [https://exercism.org](https://exercism.org).
 
-Repository for my solutions to coding exercises on Exercism.
+My profile: [https://exercism.org/profiles/G-C-Code](https://exercism.org/profiles/G-C-Code)
