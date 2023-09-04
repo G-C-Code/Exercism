@@ -12,20 +12,20 @@ public class RobotNameTests
         Assert.Matches(@"^[A-Z]{2}\d{3}$", robot.Name);
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Name_is_the_same_each_time()
     {
         Assert.Equal(robot.Name, robot.Name);
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Different_robots_have_different_names()
     {
         var robot2 = new Robot();
         Assert.NotEqual(robot2.Name, robot.Name);
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Can_reset_the_name()
     {
         var originalName = robot.Name;
@@ -33,14 +33,14 @@ public class RobotNameTests
         Assert.NotEqual(originalName, robot.Name);
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void After_reset_the_name_is_valid()
     {
         robot.Reset();
         Assert.Matches(@"^[A-Z]{2}\d{3}$", robot.Name);
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Robot_names_are_unique()
     {
         const int robotsCount = 10_000;
@@ -54,7 +54,7 @@ public class RobotNameTests
         }
     }
     
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Robot_names_should_generate_edge_case_a()
     {
         const int robotsCount = 10_000;
@@ -62,7 +62,7 @@ public class RobotNameTests
         Assert.Contains(robots, robot => robot.Name.Contains('A'));
     }
     
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Robot_names_should_generate_edge_case_z()
     {
         const int robotsCount = 10_000;
