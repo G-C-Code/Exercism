@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gsblo\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj": {}
+    "c:\\Users\\gsblo\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gsblo\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj": {
+    "c:\\Users\\gsblo\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gsblo\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj",
+        "projectUniqueName": "c:\\Users\\gsblo\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj",
         "projectName": "InternationalCallingConnoisseur",
-        "projectPath": "C:\\Users\\gsblo\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj",
+        "projectPath": "c:\\Users\\gsblo\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj",
         "packagesPath": "C:\\Users\\gsblo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gsblo\\Exercism\\csharp\\international-calling-connoisseur\\obj\\",
+        "outputPath": "c:\\Users\\gsblo\\Exercism\\csharp\\international-calling-connoisseur\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
