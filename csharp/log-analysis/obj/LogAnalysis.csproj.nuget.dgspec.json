@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\gsblo\\Exercism\\csharp\\log-analysis\\LogAnalysis.csproj": {}
+    "C:\\Users\\gsblo\\Exercism\\csharp\\log-analysis\\LogAnalysis.csproj": {}
   },
   "projects": {
-    "c:\\Users\\gsblo\\Exercism\\csharp\\log-analysis\\LogAnalysis.csproj": {
+    "C:\\Users\\gsblo\\Exercism\\csharp\\log-analysis\\LogAnalysis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\gsblo\\Exercism\\csharp\\log-analysis\\LogAnalysis.csproj",
+        "projectUniqueName": "C:\\Users\\gsblo\\Exercism\\csharp\\log-analysis\\LogAnalysis.csproj",
         "projectName": "LogAnalysis",
-        "projectPath": "c:\\Users\\gsblo\\Exercism\\csharp\\log-analysis\\LogAnalysis.csproj",
+        "projectPath": "C:\\Users\\gsblo\\Exercism\\csharp\\log-analysis\\LogAnalysis.csproj",
         "packagesPath": "C:\\Users\\gsblo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\gsblo\\Exercism\\csharp\\log-analysis\\obj\\",
+        "outputPath": "C:\\Users\\gsblo\\Exercism\\csharp\\log-analysis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

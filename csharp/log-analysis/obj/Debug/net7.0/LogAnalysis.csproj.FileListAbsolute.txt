@@ -1,8 +1,3 @@
-C:\Users\gsblo\Exercism\csharp\log-analysis\obj\Debug\net7.0\LogAnalysis.csproj.AssemblyReference.cache
-C:\Users\gsblo\Exercism\csharp\log-analysis\obj\Debug\net7.0\LogAnalysis.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\gsblo\Exercism\csharp\log-analysis\obj\Debug\net7.0\LogAnalysis.AssemblyInfoInputs.cache
-C:\Users\gsblo\Exercism\csharp\log-analysis\obj\Debug\net7.0\LogAnalysis.AssemblyInfo.cs
-C:\Users\gsblo\Exercism\csharp\log-analysis\obj\Debug\net7.0\LogAnalysis.csproj.CoreCompileInputs.cache
 C:\Users\gsblo\Exercism\csharp\log-analysis\bin\Debug\net7.0\testhost.dll
 C:\Users\gsblo\Exercism\csharp\log-analysis\bin\Debug\net7.0\testhost.exe
 C:\Users\gsblo\Exercism\csharp\log-analysis\bin\Debug\net7.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -92,6 +87,11 @@ C:\Users\gsblo\Exercism\csharp\log-analysis\bin\Debug\net7.0\zh-Hans\Microsoft.V
 C:\Users\gsblo\Exercism\csharp\log-analysis\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\gsblo\Exercism\csharp\log-analysis\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\gsblo\Exercism\csharp\log-analysis\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\gsblo\Exercism\csharp\log-analysis\obj\Debug\net7.0\LogAnalysis.csproj.AssemblyReference.cache
+C:\Users\gsblo\Exercism\csharp\log-analysis\obj\Debug\net7.0\LogAnalysis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gsblo\Exercism\csharp\log-analysis\obj\Debug\net7.0\LogAnalysis.AssemblyInfoInputs.cache
+C:\Users\gsblo\Exercism\csharp\log-analysis\obj\Debug\net7.0\LogAnalysis.AssemblyInfo.cs
+C:\Users\gsblo\Exercism\csharp\log-analysis\obj\Debug\net7.0\LogAnalysis.csproj.CoreCompileInputs.cache
 C:\Users\gsblo\Exercism\csharp\log-analysis\obj\Debug\net7.0\LogAnalysis.csproj.CopyComplete
 C:\Users\gsblo\Exercism\csharp\log-analysis\obj\Debug\net7.0\LogAnalysis.dll
 C:\Users\gsblo\Exercism\csharp\log-analysis\obj\Debug\net7.0\refint\LogAnalysis.dll
