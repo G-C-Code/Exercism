@@ -6,8 +6,8 @@ public static class RunLengthEncoding
 {
     public static string Encode(string input)
     {
-        int RLE = 1;
         StringBuilder sb = new();
+        int rle = 1;
 
         for (int i = 0; i < input.Length; i++)
         {
@@ -15,23 +15,22 @@ public static class RunLengthEncoding
             {
                 if (input[i] == input[i+1])
                 {
-                    RLE++;
-                }
-                else if (input[i] != input[i+1] && RLE != 1)
-                {
-                    sb.Append(RLE.ToString() + input[i]);
-                    RLE = 1;
+                    rle++;
                 }
                 else
                 {
+                    if (rle > 1)
+                        sb.Append(rle);
+
                     sb.Append(input[i]);
+                    rle = 1;
                 }
             }
-            else if (i == input.Length - 1)
+            else
             {
-                if (input[i] == input[i-1])
+                if (rle > 1)
                 {
-                    sb.Append(RLE.ToString() + input[i]);
+                    sb.Append(rle); sb.Append(input[i]);
                 }
                 else
                 {
@@ -45,40 +44,26 @@ public static class RunLengthEncoding
 
     public static string Decode(string input)
     {
-        List<int> numbers = new List<int>();
-        
+        StringBuilder repeat = new();
         StringBuilder sb = new();
+        int rld = 1;
 
-        for (int i = 0; i < input.Length; i++)
+        foreach (char c in input)
         {
-            if (i < input.Length - 1)
-            {   
-                if (Int32.TryParse(input[i].ToString(), out int first) && Int32.TryParse(input[i+1].ToString(), out int _))
-                {
-                    numbers.Add(first);
-                }
-                else if (Int32.TryParse(input[i].ToString(), out int second))
-                {
-                    numbers.Add(second);
+            if (char.IsDigit(c))
+                repeat.Append(c);
 
-                    string concatenated = string.Join("", numbers);
-                    int RLD = Int32.Parse(concatenated);
-
-                    for (int j = 0; j < RLD; j++)
-                        sb.Append(i+1);
-
-                    numbers.Clear();
-                }
-                else if (!Int32.TryParse(input[i-1].ToString(), out int third))
-                {
-                    sb.Append(i);
-                }
-            }
-            else if (i == input.Length - 1)
+            else
             {
-                sb.Append(i);
+                if (repeat.Length > 0)
+                    Int32.TryParse(repeat.ToString(), out rld);
+
+                for (int i = 0; i < rld; i++)
+                    sb.Append(c);
+
+                repeat.Clear();
+                rld = 1;
             }
-            
         }
 
         return sb.ToString();
