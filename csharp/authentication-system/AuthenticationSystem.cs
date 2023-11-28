@@ -27,10 +27,7 @@ public class Authenticator
         }
     };
 
-    public Authenticator(Identity admin)
-    {
-        this.admin = admin;
-    }
+    public Authenticator(Identity admin) => this.admin = admin;
 
     public Identity Admin
     {
@@ -38,10 +35,8 @@ public class Authenticator
         init { admin = value; }
     }
 
-    public ReadOnlyDictionary<string, Identity> GetDevelopers()
-    {
-        return new ReadOnlyDictionary<string, Identity>(developers);
-    }
+    public ReadOnlyDictionary<string, Identity> GetDevelopers() =>
+        new ReadOnlyDictionary<string, Identity>(developers);
 }
 
 public struct Identity
