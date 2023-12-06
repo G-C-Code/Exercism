@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7KD07ubQn0W20CJ7LjKy5HSR5GyHzWDxf8owuwvUEBjTUYkgwvYZgRg9BMmN8sb4PDnwEb1IVvUgcBZmftdkeA==",
+  "dgSpecHash": "83u83K3yIx84+g7kZU8U9wOoGUCRGJExCme0ygVvMw6yj/4u6L5xT+nFUNsj8tFkTU5AClB966JJY3otRqWhIw==",
   "success": true,
   "projectFilePath": "C:\\Users\\gsblo\\Exercism\\csharp\\binary-search\\BinarySearch.csproj",
   "expectedPackageFiles": [
